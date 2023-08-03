@@ -1,9 +1,10 @@
-# Spotify-Clone
+# Spotify-Clone Project
 
 # Here is Deploy Link - 
 
- main page - https://maheshb45.github.io/F1-Contest3-repo/
+ main page - https://maheshb45.github.io/Spotify-Clone/
 
+ play list page - https://maheshb45.github.io/Spotify-Clone/playlist.html
 
 # Project Overview -
 
