@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Website Icon -->
+    <link rel="shortcut icon" href="./assets/spotify-icon.png" type="image/x-icon">
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- All Img Paths -->
+    <!-- <base href="assets/"> -->
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="sidebar">
+            <!-- Spotify=logo -->
+            <img class="logo" id="glogo" src="./assets/Spotify-logo.png" alt="logo">
+            <!-- sidebar-content section -->
+            <!-- menu-section -->
+            <ul class="menu">
+                <li id="home">
+                    <img src="./assets/home.svg" alt="home">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <img src="./assets/search.svg" alt="Search">
+                    <a href="#"><input type="text" placeholder="Search" id="Search-bar" /></a>
+                </li>
+                <li>
+                    <img src="./assets/library.svg" alt="Library">
+                    <a href="#">Your Library</a>
+                </li>
+
+                <li id="list2">
+                    <img src="./assets/plus.png" alt="plus">
+                    <a href="playlist.html">Create Playlist</a>
+                </li>
+                <li id="list2">
+                    <img src="./assets/purpleheart.png" alt="purpleheart">
+                    <a href="playlist.html">Liked Songs</a>
+                </li>
+                <li id="list2">
+                    <img src="./assets/hotspot.png" alt="hotspot">
+                    <a href="#">Your Episodes</a>
+                </li>
+                <!-- list-section -->
+                <li id="list3"><a href="#">FAV</a></li>
+                <li id="list3"><a href="#">Daily Mix 1</a></li>
+                <li id="list3"><a href="#">Discover Weekly</a></li>
+                <li id="list3"><a href="#">Dance / Electronix Mix</a></li>
+                <li id="list3"><a href="#">EDM / Popular</a></li>
+                <!-- install-section -->
+                <li id="list4">
+                    <img src="./assets/download.png" alt="download">
+                    <a href="#">Install App</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Right-main -->
+        <div class="right-main">
+            <!-- main-top-header Section -->
+            <section id="main-top-header">
+                <div class="top-header">
+                    <div class="nav-btn">
+                        <img id="btn" src="./assets/backward.png" style="margin-right: 1rem;" alt="backward">
+
+                        <a href="playlist.html"><img id="btn" src="./assets/forward.png" alt="forward"></a>
+                    </div>
+                    <div class="profile">
+                        <img src="./assets/profile.png" alt="profile">
+                        <p>Mahesh</p>
+                        <img id="btn" src="./assets/down.png" style="margin-right: 1rem;" alt="down">
+                    </div>
+                </div>
+            </section>
+
+            <!-- greeting section -->
+            <section id="greeting">
+                <div class="greeting">
+                    <h3>Good morning</h3>
+                </div>
+            </section>
+
+            <!-- t-playlist section-->
+            <section id="t-playlist">
+                <div class="title-playlist">
+                    <div class="playlist">
+                        <img style="height: 3rem;" src="./assets/Purple-big.png" alt="Purple-big">
+                        <a href="playlist.html">
+                            <div class="col-flex">
+                                <p>Liked Songs</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="playlist">
+                        <img style="height: 3rem;" src="./assets/man.png" alt="man">
+                        <div class="col-flex">
+                            <p>Neffex Playlist</p>
+                        </div>
+                    </div>
+                    <div class="playlist">
+                        <img style="height: 3rem;" src="./assets/KDA.png" alt="KDA">
+                        <div class="col-flex">
+                            <p>K/ DA</p>
+                        </div>
+                    </div>
+                    <div class="playlist">
+                        <img style="height: 3rem;" src="./assets/marshmellow.png" alt="marshmellow">
+                        <div class="col-flex">
+                            <p>Dance / Electronic Mix</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--playlist-albums section  -->
+                <section id="playlist-albums">
+                    <div class="list-heading">
+                        <h4>Shows you might like</h4>
+                        <p style="margin-right: 2rem; color: #B3B3B3; font-size: 10px;">SEE ALL</p>
+                    </div>
+                    <div class="albums">
+                        <div class="music-card">
+                            <a href="playlist.html"><img src="./assets/dualipa.png" alt="dualipa"></a>
+                            <div class="text">
+                                <p>Pop Right Now...</p>
+                                <p id="muted">Dua Lipa</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <a href="#"><img src="./assets/12number.jfif" alt="12number"></a>
+                            <div class="text">
+                                <p>Twelve ...</p>
+                                <p id="muted">Bilal Saeed</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle21.png" alt="rectangle21">
+                            <div class="text">
+                                <p>Weekly Motivatio...</p>
+                                <p id="muted">Ben Ina Scott</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle22.png" alt="rectangle22">
+                            <div class="text">
+                                <p>MEDITATION SELF</p>
+                                <p id="muted">Ibn Hussain Aleen</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle23.png" alt="rectangle23">
+                            <div class="text">
+                                <p>Words beyond act...</p>
+                                <p id="muted">Samuel Scott</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle16.png" alt="rectangle16">
+                            <div class="text">
+                                <p>The Alexa Show</p>
+                                <p id="muted">Adriana Tom</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/man.png" alt="man">
+                            <div class="text">
+                                <p>Neffex Playlist</p>
+                                <p id="muted">Neffex</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/marshmellow.png" alt="marshmellow">
+                            <div class="text">
+                                <p>Dance/Electronic Mix</p>
+                                <p id="muted">Marshmellow</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle21.png" alt="rectangle21">
+                            <div class="text">
+                                <p>Weekly Motivatio...</p>
+                                <p id="muted">Ben Ina Scott</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle22.png" alt="rectangle22">
+                            <div class="text">
+                                <p>MEDITATION SELF</p>
+                                <p id="muted">Ibn Hussain Aleen</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle23.png" alt="rectangle23">
+                            <div class="text">
+                                <p>Words beyond act...</p>
+                                <p id="muted">Samuel Scott</p>
+                            </div>
+                        </div>
+                        <div class="music-card">
+                            <img src="./assets/rectangle16.png" alt="rectangle16">
+                            <div class="text">
+                                <p>The Alexa Show</p>
+                                <p id="muted">Adriana Tom</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <br>
+        </div>
+        <!-- Right-main/ -->
+
+        <!-- Footer -->
+        <div class="footer-music-player">
+
+            <div class="current-play">
+                <img class="music-art" style="height: 3rem;" src="./assets/playing-img.png" alt="playing">
+                <div class="col-flex">
+                    <marquee behavior="" scrollamount="4">
+                        <p style="color: #FFF;">Dreaming On</p>
+                    </marquee>
+                    <p style="color: #B3B3B3;">NEFFEX</p>
+                </div>
+                <img id="green_heart" src="./assets/gheart.svg" alt="green_heart">
+            </div>
+
+            <div class="player-center">
+
+                <div class="player-controls">
+                    <img id="btn" style="height: 1.6rem; margin-right: 1rem;" src="./assets/shuffle.png" />
+                    <img id="btn" style="height: 1.5rem; margin-right: 1rem;" src="./assets/previous.png" />
+                    <img id="btn" style="height: 2.5rem; margin-right: 1rem" src="./assets/gridicons_play.png" />
+                    <img id="btn" style="height: 1.5rem; margin-right: 1rem;" src="./assets/next.png" />
+                    <img id="btn" style="height: 1.5rem; margin-right: 1rem;" src="./assets/loop.png" />
+                </div>
+                <div class="player-timeline">
+                    <span class="current-time">0:00</span>
+                    <input type="range" class="timeline-slider" min="0" max="100" step="1" value="0" />
+                    <span class="total-time">0:00</span>
+                </div>
+            </div>
+
+            <div class="volume-controls">
+                <img id="btn" src="./assets/microphone.png" style="height: 1.3rem; margin-right: 0.3rem;"
+                    alt="microphone" />
+                <img id="btn" src="./assets/query-queue.png"
+                    style="height: 1.5rem; width: 1.5rem; margin-top: -0.2rem; margin-right: 0.5rem;"
+                    alt="query-queue" />
+                <img id="btn" src="./assets/carbon_laptop.png" style="height: 1.3rem; margin-right: 0.5rem;"
+                    alt="carbon_laptop" />
+                <img id="btn" src="./assets/speaker-white.png" style="height: 1.3rem; margin-right: 0.5rem;"
+                    alt="speaker-white" />
+                <!-- <img src="volume-bar.png" style="height: 1rem; margin-right: 1rem; opacity: 0.8" alt="Fullscreen" /> -->
+                <input type="range" class="volume-slider" min="0" max="100" step="1" value="50" />
+                <img id="btn" src="./assets/strech-speaker.png"
+                    style="height: 1rem; margin-top: 0.3rem; margin-left: 0.5rem;" alt="strech-speaker" />
+            </div>
+        </div>
+        <!-- Footer/ -->
+    </div>
+</body>
+
+</html>
