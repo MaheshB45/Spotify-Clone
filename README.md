@@ -4,7 +4,7 @@
 
  main page - https://maheshb45.github.io/Spotify-Clone/
 
- play list page - https://maheshb45.github.io/Spotify-Clone/playlist.html
+ playlist page - https://maheshb45.github.io/Spotify-Clone/playlist.html
 
 # Project Overview -
 
